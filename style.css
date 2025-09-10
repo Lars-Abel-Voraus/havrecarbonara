@@ -1,0 +1,89 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffaf5;
+      color: #4b2e2e;
+    }
+
+    header {
+      background-color: #f9e6e1;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #e4cfc3;
+    }
+
+    header h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .container {
+        background-color: #f0e0db;
+        border-radius: 25px; 
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px 20px;
+    }
+
+
+    .recipe-image {
+  width: 70%;
+  max-width: 500px;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  background-color: #f0e0db;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    h2 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #b0755a;
+    }
+
+    ul, ol {
+      line-height: 1.8;
+      padding-left: 20px;
+      /*background: #fff4f0;*/
+      padding: 15px;
+      border-radius: 10px;
+      /*box-shadow: 0 0 5px rgba(200, 150, 130, 0.1);*/
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 2px solid #e4cfc3;
+      background-color: #f9e6e1;
+      font-size: 0.9em;
+      color: #a98c8c;
+      margin-top: 60px;
+    }
+
+    /* Mobile*/
+    @media (max-width: 600px) {
+
+        .container {
+            max-width: 250px;
+        }
+
+      header h1 {
+        font-size: 2.2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      .recipe-image {
+        width: 90%;
+        max-width: 220px;
+        max-height: 180px;
+  }
+    }
